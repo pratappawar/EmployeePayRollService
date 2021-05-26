@@ -1,9 +1,3 @@
-%C:\Users\prata\TempPlayGround\temp1
-%C:\Users\prata\TempPlayGround\temp2
-%C:\Users\prata\TempPlayGround\temp3
-%C:\Users\prata\TempPlayGround\temp4
-%C:\Users\prata\TempPlayGround\temp5
-%C:\Users\prata\TempPlayGround\temp6
-%C:\Users\prata\TempPlayGround\temp7
-%C:\Users\prata\TempPlayGround\temp8
-%C:\Users\prata\TempPlayGround\temp9
+>EmployeePayrollData [id=1, name=Jeff Bezos, salary=100000.0]
+>EmployeePayrollData [id=2, name=Bill Gates, salary=500000.0]
+>EmployeePayrollData [id=3, name=Elon Musk, salary=4000000.0]
