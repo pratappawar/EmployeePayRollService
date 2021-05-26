@@ -27,7 +27,9 @@ public class EmployeePayrollFileIOService {
         }
     }
 
-    /* print the data */
+    /**
+     * print the data
+     */
     public void printData() {
         try {
             Files.lines(new File(PAYROLL_FILE_NAME).toPath()).forEach(System.out::println);
@@ -36,7 +38,10 @@ public class EmployeePayrollFileIOService {
         }
     }
 
-    /* count the entries */
+    /**
+     * count the entries
+     * @return
+     */
     public long countEntries() {
         long entries = 0;
         try {
