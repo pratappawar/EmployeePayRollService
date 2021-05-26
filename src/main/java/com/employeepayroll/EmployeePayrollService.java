@@ -81,4 +81,16 @@ public class EmployeePayrollService {
             return new EmployeePayrollFileIOService().countEntries();
         return 0;
     }
+
+    /**
+     * read data from file
+     * @param ioService
+     * @return
+     */
+    public List<EmployeePayrollData> readPayrollData(IOService ioService) {
+        if (ioService.equals(IOService.FILE_IO))
+            this.employeePayrollList = new EmployeePayrollFileIOService().readData();
+        return employeePayrollList;
+    }
+
 }
