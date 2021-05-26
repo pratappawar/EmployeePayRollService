@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.employeepayroll.EmployeePayRollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-25T05:53:48" hostname="LAPTOP-JK99497U" time="0.11">
-  <properties/>
-  <testcase name="printWelcomeMessage()" classname="com.employeepayroll.EmployeePayRollServiceTest" time="0.11"/>
-  <system-out><![CDATA[Welcome to Employee Payroll Service Project!!!
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
