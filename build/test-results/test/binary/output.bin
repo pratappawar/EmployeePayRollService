@@ -1,3 +1,6 @@
->EmployeePayrollData [id=1, name=Jeff Bezos, salary=100000.0]
->EmployeePayrollData [id=2, name=Bill Gates, salary=500000.0]
->EmployeePayrollData [id=3, name=Elon Musk, salary=4000000.0]
+QConnecting to database:jdbc:mysql://localhost:3306/payroll_service?useSSL=false
+EConnection is successful!!!com.mysql.cj.jdbc.ConnectionImpl@53d8d32
+Wrecords[EmployeePayrollData{id=1, name='Bill', salary=1000000.0, startDate=2018-01-03}
+S, EmployeePayrollData{id=2, name='Terisa', salary=3000000.0, startDate=2019-11-13}
+T, EmployeePayrollData{id=3, name='Charlie', salary=3000000.0, startDate=2020-05-21}
+]

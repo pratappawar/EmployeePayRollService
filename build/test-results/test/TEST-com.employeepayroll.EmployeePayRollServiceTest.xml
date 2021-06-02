@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.employeepayroll.EmployeePayRollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-31T04:07:41" hostname="LAPTOP-JK99497U" time="0.119">
+<testsuite name="com.employeepayroll.EmployeePayRollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-02T06:47:06" hostname="LAPTOP-JK99497U" time="0.735">
   <properties/>
-  <testcase name="given3Employees_WhenWrittenTo_FileShouldMatch_EmployeeEntries()" classname="com.employeepayroll.EmployeePayRollServiceTest" time="0.119"/>
-  <system-out><![CDATA[EmployeePayrollData [id=1, name=Jeff Bezos, salary=100000.0]
-EmployeePayrollData [id=2, name=Bill Gates, salary=500000.0]
-EmployeePayrollData [id=3, name=Elon Musk, salary=4000000.0]
+  <testcase name="givenEmployeePayrollInDB_WhenRetrieved_ShouldMatchEmployeeCount()" classname="com.employeepayroll.EmployeePayRollServiceTest" time="0.735"/>
+  <system-out><![CDATA[Connecting to database:jdbc:mysql://localhost:3306/payroll_service?useSSL=false
+Connection is successful!!!com.mysql.cj.jdbc.ConnectionImpl@53d8d32
+records[EmployeePayrollData{id=1, name='Bill', salary=1000000.0, startDate=2018-01-03}
+, EmployeePayrollData{id=2, name='Terisa', salary=3000000.0, startDate=2019-11-13}
+, EmployeePayrollData{id=3, name='Charlie', salary=3000000.0, startDate=2020-05-21}
+]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

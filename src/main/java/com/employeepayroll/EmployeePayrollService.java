@@ -11,6 +11,7 @@ public class EmployeePayrollService {
     public List<EmployeePayrollData> employeePayrollList;
 
     public EmployeePayrollService(List<EmployeePayrollData> employeePayrollList) {
+        this();
         this.employeePayrollList = employeePayrollList;
     }
 
@@ -93,4 +94,15 @@ public class EmployeePayrollService {
         return employeePayrollList;
     }
 
+    /**
+     * read Employee payroll data from database
+     * @param ioService
+     * @return
+     */
+    public List<EmployeePayrollData> readEmployeePayrollData(IOService ioService)
+    {
+        if(ioService.equals(IOService.DB_IO))
+            this.employeePayrollList = new EmployeePayrollDBService().readData();
+        return this.employeePayrollList;
+    }
 }
